@@ -1,0 +1,68 @@
+.checkout {
+  padding-top: 96px;
+  padding-right: 200px;
+  font-family: Montserrat, serif;
+
+  .personal-details {
+    padding-top: 72px;
+
+    .personal-details-label {
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 0.3px;
+    }
+    .personal-details-fields {
+      padding-top: 24px;
+      display: flex ;
+      font-size: 15px;
+
+
+      .personal-details-name {
+        width: 50%;
+      }
+
+      .personal-details-phone {
+        width: 50%;
+        .change-btn {
+          font-weight: 600;
+          font-size: 15px;
+          color: #18434C;
+        }
+      }
+    }
+  }
+
+  .delivery-information {
+    padding-top: 76px;
+    font-size: 15px;
+    .delivery-information-label {
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 0.3px;
+    }
+
+    .address-line-1 {
+      padding-top: 20px;
+    }
+    .address-line-2 {
+      padding-top: 20px;
+    }
+    .postcode {
+      padding-top: 20px;
+    }
+    .delivery-comment {
+      padding-top: 20px;
+      #outlined-multiline-static {
+        font-size: 15px;
+        font-family: Montserrat, serif;
+        letter-spacing: 0.2px;
+      }
+    }
+  }
+
+  #outlined-basic {
+    font-family: Montserrat, serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

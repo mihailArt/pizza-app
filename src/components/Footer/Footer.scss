@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  background: #333131;
+  a {
+    text-decoration: inherit;
+    color: inherit;
+  }
+  font-family: montserrat, serif;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  color: #FBF7F3;
+}
+
+.wa-pizza {
+  display: flex;
+  flex-direction: column;
+}
+
+.for-partners {
+  display: flex;
+  flex-direction: column;
+}
+

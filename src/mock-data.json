@@ -1,0 +1,89 @@
+{
+  "productCards": [
+    {
+      "categoryName": "Pizza",
+      "products": [
+        {
+          "name": "Salami and mushrooms",
+          "cost": 12.50
+        },
+        {
+          "name": "Vegetarian margherita",
+          "cost": 11.00
+        },
+        {
+          "name": "Salami and mushrooms",
+          "cost": 12.50
+        },
+        {
+          "name": "Vegetarian margherita",
+          "cost": 11.00
+        }
+      ]
+    },
+    {
+      "categoryName": "Drinks",
+      "products": [
+        {
+          "name": "Hot chocolate",
+          "cost": 2.10,
+          "vol": 300
+        },
+        {
+          "name": "Nut cappuccino",
+          "cost": 1.70,
+          "vol": 300
+        },
+        {
+          "name": "Vanilla cappuccino",
+          "cost": 1.90,
+          "vol": 300
+        },
+        {
+          "name": "Hot chocolate",
+          "cost": 2.10,
+          "vol": 300
+        }
+      ]
+    },
+    {
+      "categoryName": "Desserts",
+      "products": [
+        {
+          "name": "Hot chocolate",
+          "cost": 3.80,
+          "weight": 120
+        },
+        {
+          "name": "Tiramisu",
+          "cost": 6.70,
+          "weight": 180
+        },
+        {
+          "name": "Coca-cola",
+          "cost": 4.10,
+          "weight": 200
+        },
+        {
+          "name": "Hot chocolate",
+          "cost": 3.80,
+          "weight": 120
+        }
+      ]
+    }
+  ],
+  "menuCards": [
+    {
+      "name": "Pizza",
+      "description": "We cook our pizza\nin wood-burning ovens.\nThat is our simple tradition."
+    },
+    {
+      "name": "Desserts",
+      "description": "We always have fresh desserts,\n because we choose the best\n natural ingredients."
+    },
+    {
+      "name": "Drinks",
+      "description": "We are sourcing only organicly\n grown coffee beans—from\n farming to your door."
+    }
+  ]
+}

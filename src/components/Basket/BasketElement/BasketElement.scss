@@ -1,0 +1,99 @@
+.basket-elem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: Montserrat, serif;
+  border-bottom: 1px solid #DCD8D4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .basket-elem-info-block {
+    display: flex;
+  }
+
+  .basket-elem-func-block {
+    display: flex;
+  }
+
+  .basket-elem-info {
+    padding-left: 32px;
+
+    .basket-elem-title {
+      font-weight: 600;
+      font-size: 20px;
+    }
+    .basket-elem-dough {
+      padding-top: 4px;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .basket-elem-toppings {
+      padding-top: 16px;
+      font-weight: 400;
+      font-size: 15px;
+      color: #5A5957;
+    }
+  }
+
+  .basket-elem-counter {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border:2px solid #DECAB3;
+    margin-left: 48px;
+    margin-right: 64px;
+
+
+    .minus-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 6px 0 0 6px;
+    }
+    .minus-btn:hover {
+      cursor: pointer;
+      background-color: #EDDDCA;
+    }
+
+    .plus-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 0 6px 6px 0;
+    }
+    .plus-btn:hover {
+      cursor: pointer;
+      background-color: #EDDDCA;
+    }
+
+    .basket-elem-count {
+      font-weight: 600;
+      font-size: 18px;
+      width: 54px;
+      text-align: center;
+    }
+  }
+
+  .basket-elem-cost {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 75px;
+    text-align: center;
+  }
+
+  .delete-icon {
+    margin-left: 44px;
+    margin-top: 4px
+  }
+}
+
+.basket-elem-img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 4px;
+}

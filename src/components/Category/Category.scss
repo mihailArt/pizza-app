@@ -1,0 +1,17 @@
+.category {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.category-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-header {
+    margin: 0;
+    font-family: montserrat, serif;
+    font-size: 32px;
+    font-weight: 600;
+}

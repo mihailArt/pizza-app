@@ -1,0 +1,78 @@
+.order-summary-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-summary {
+  margin-top: 230px;
+  padding: 40px;
+  background-color: #F4EDE5;
+  border-radius: 16px;
+  font-family: Montserrat, serif;
+  max-width: 340px;
+
+  .order-summary-label {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .product-item {
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+
+    .product-info {
+      width: 70%;
+      .product-name {
+        font-weight: 600;
+        font-size: 15px;
+      }
+      .toppings-info {
+        padding-top: 8px;
+        font-size: 13px;
+      }
+    }
+    .count-and-price {
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+
+  .total-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .divider {
+    border-top: 2px dashed #BEBBB8;
+  }
+
+  .order-btn {
+    margin-top: 40px;
+    background-color: #18434C;
+    text-transform: none;
+    height: 48px;
+    color: #FBF7F3;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .order-btn:hover {
+    background-color: #2F6873;
+  }
+
+  .delivery-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+
+    .delivery-price {
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.map-section {
+  padding-top: 320px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.timezones {
+  display: flex;
+  align-items: flex-end;
+}
+
+.time-aria {
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  span {
+    padding-left: 12px;
+  }
+}
+
+.green-dot, .orange-dot, .red-dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.green-dot {
+  background-color: #7D9D23;
+}
+
+.orange-dot {
+  background-color: #E2980C;
+}
+
+.red-dot {
+  background-color: #BC3E36;
+}
+
+.map-notes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.map-note {
+  display: flex;
+  flex-direction: column;
+  max-width: 416px;
+}
+
+.font-18 {
+  font-family: Montserrat, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.note-label {
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.note-text {
+  font-weight: 400;
+}

@@ -1,0 +1,32 @@
+.empty-basket {
+  padding-top: 200px;
+  text-align: center;
+  font-family: Montserrat, serif;
+
+  .empty-basket-label {
+    padding-top: 64px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .empty-basket-text {
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .btn {
+    margin-top: 32px;
+    padding: 0;
+    background-color: #18434C;
+
+    .btn-text {
+      padding: 14px 44px;
+      color: #FBF7F3;
+    }
+  }
+
+  .btn:hover {
+    background-color: #2F6873;
+  }
+}

@@ -1,0 +1,49 @@
+.card {
+    margin-top: 32px;
+    margin-right: 32px;
+    max-width: 300px;
+    max-height: 460px;
+}
+
+.card-info {
+    margin-top: -5px;
+    padding: 24px 30px 24px 24px;
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #EAE5E1;
+    border-radius: 0 0 16px 16px;
+    font-family: montserrat, serif;
+    .btn {
+        width: 100%;
+        background-color: #EDDDCA;
+    }
+    .btn:hover {
+        width: 100%;
+        background-color: #E6D4BF;
+    }
+}
+
+.name-product {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cost {
+    margin-top: 44px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px
+}
+
+.btn-text {
+    font-family: montserrat, serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #734B26;
+}
+
+.card img {
+    border-radius: 16px 16px 0 0;
+}
+

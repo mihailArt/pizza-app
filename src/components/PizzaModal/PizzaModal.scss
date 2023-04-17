@@ -1,0 +1,206 @@
+.gray-dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: #BEBBB8;
+  margin: 12px;
+}
+
+.pizza-modal {
+  background-color: #FBF7F3;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  .pizza-modal-right {
+    margin: 64px;
+    font-size: 15px;
+    font-weight: 500;
+
+    .ingredients {
+      padding-top: 52px;
+      p {
+        font-weight: 600;
+      }
+      .ingredients-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    .nutritional-information {
+      padding-top: 38px;
+      p {
+        font-weight: 600;
+      }
+      .nutrition-elements {
+        display: flex;
+        align-items: center;
+
+        .nutrition-elem {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .pizza-modal-left {
+    margin: 64px;
+    h5 {
+      padding-bottom: 4px;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+    }
+    .weight {
+      padding-bottom: 24px;
+    }
+
+    .radio-btn {
+      display: flex;
+      background-color: #F4EDE5;
+      border-radius: 8px;
+
+      input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+      }
+
+      .button {
+        display: flex;
+        flex: 1;
+
+        label {
+          flex: 1;
+          display: inline-block;
+          text-align: center;
+          background-color: #F4EDE5;
+          border: 2px solid #F4EDE5;
+          padding: 14px 20px;
+          font-size: 16px;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+      }
+
+      input[type="radio"]:checked + label {
+        background-color:#FBF7F3;
+        border: 2px solid #C99B61;
+        border-radius: 8px;
+      }
+    }
+
+    .toppings {
+      padding-top: 64px;
+
+      .toppings-label {
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .toppings-price {
+        padding-top: 8px;
+        font-size: 13px;
+        font-weight: 500;
+      }
+
+      .toppings-list {
+        padding-top: 24px;
+
+        .toppings-row {
+          display: flex;
+
+          .topping {
+            flex: 1;
+            img {
+              padding: 16px 24px 8px 24px;
+            }
+            margin-right: 8px;
+            margin-bottom: 8px;
+          }
+
+          label {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #F4EDE5;
+            border-radius: 8px;
+            background-color: #F4EDE5;
+
+            padding-bottom: 16px;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+
+          input[type="checkbox"] {
+            opacity: 0;
+            position: fixed;
+            width: 0;
+          }
+          input[type="checkbox"]:checked ~ label {
+            background-color:#FBF7F3;
+            border: 2px solid #C99B61;
+            border-radius: 8px;
+          }
+
+          input[type="checkbox"]:checked:hover ~ label {
+            background-color:#FBF7F3;
+            border: 2px solid #C99B61;
+            border-radius: 8px;
+          }
+
+          input[type="checkbox"]:hover ~ label {
+            border: 2px solid #DFD8D0;
+            border-radius: 8px;
+          }
+
+          .last {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .add-to-basket {
+      display: flex;
+      align-items: center;
+      padding-top: 95px;
+
+      .btn {
+        background-color: #18434C;
+      }
+
+      .btn:hover {
+        background-color: #2F6873;
+      }
+
+      .btn-text {
+        color: #FBF7F3;
+        font-size: 15px;
+        font-weight: 500;
+        margin: 10px 30px;
+      }
+      .sum-cost {
+        padding-left: 28px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.close-icon {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 9px;
+  right: 9px;
+}
+.food-image {
+  width: 420px;
+  height: 420px;
+  border-radius: 16px;
+}
